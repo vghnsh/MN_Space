@@ -1,0 +1,14 @@
+.playlist {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  padding: 0px 4em;
+}
+@media screen and (max-width: 800px) {
+  .playlist {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.7em;
+    padding: 0px 0.5em;
+  }
+}

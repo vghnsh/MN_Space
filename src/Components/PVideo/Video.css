@@ -1,0 +1,11 @@
+.Pvideo {
+  display: flex;
+  flex-direction: column;
+}
+.PlayList_name {
+  color: cornsilk;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+}

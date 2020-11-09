@@ -1,0 +1,53 @@
+.utube {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  color: aliceblue;
+  padding-top: 1em;
+}
+.utubev {
+  display: flex;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+.input_video {
+  padding: 0.5em;
+  width: 95%;
+  height: 10vw;
+  background-color: grey;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+.btn {
+  width: 30%;
+  height: 3em;
+  margin: 1em;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bold;
+  border-radius: 1em;
+}
+
+@media screen and (max-width: 800px) {
+  .utube {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

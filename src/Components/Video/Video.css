@@ -1,0 +1,55 @@
+.Video {
+  display: flex;
+  padding: 1em 15em 1em 15em;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.linkVid {
+  display: flex;
+  text-decoration: none;
+  border: 0.1px solid rgb(118, 126, 126);
+  width: 100%;
+}
+.title_video {
+  color: cornsilk;
+  font-size: x-large;
+}
+.date {
+  color: cornsilk;
+  font-size: large;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
+.img {
+  height: 10em;
+}
+@media screen and (max-width: 800px) {
+  .Video {
+    grid-template-columns: 1fr;
+    grid-gap: 0.7em;
+    padding: 0.5em;
+  }
+  .linkVid {
+    display: flex;
+    flex-direction: column;
+  }
+  .title_video {
+    font-size: smaller;
+  }
+  .date {
+    font-size: small;
+  }
+  .details {
+    width: 20em;
+  }
+  .img {
+    height: 13em;
+  }
+  .img_class {
+    display: flex;
+    justify-content: center;
+  }
+}

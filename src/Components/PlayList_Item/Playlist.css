@@ -1,0 +1,38 @@
+.link {
+  text-decoration: none;
+}
+.baap {
+  overflow: hidden;
+}
+.Pthumb {
+  height: 13vw;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+.Pthumb:hover {
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.bg {
+  background-color: black;
+  border: 0.1px solid darkslategrey;
+}
+.exp {
+  opacity: 1;
+}
+.thumb_title {
+  display: flex;
+  align-self: flex-end;
+  background-color: black;
+  opacity: 0.8;
+  color: #fff;
+  width: 100%;
+  padding-left: 10px;
+}
+@media screen and (max-width: 800px) {
+  .Pthumb {
+    height: 36vw;
+    background-repeat: no-repeat;
+  }
+}
