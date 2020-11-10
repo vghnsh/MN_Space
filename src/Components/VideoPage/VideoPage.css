@@ -23,20 +23,32 @@
   padding: 0.5em;
   width: 95%;
   height: 10vw;
-  background-color: grey;
+  background-color: lightgray;
   border-radius: 1em;
   padding: 0.5em;
 }
 .btn {
-  width: 30%;
-  height: 3em;
-  margin: 1em;
-  background-color: whitesmoke;
+  width: 100%;
+  background-color: darkgrey;
   color: black;
   font-weight: bold;
-  border-radius: 1em;
+}
+.MuiButton-containedPrimary .MuiButton-contained.Mui-disabled {
+  width: 100%;
 }
 
+.comment {
+  display: flex;
+}
+.avatar {
+  font-weight: bold;
+  border: 0.5px solid gray;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+.text {
+  padding: 0.5em;
+}
 @media screen and (max-width: 800px) {
   .utube {
     width: 100%;

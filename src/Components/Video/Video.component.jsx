@@ -4,6 +4,8 @@ import { useDispatch } from 'react-redux';
 import { videoid } from '../../Redux/mnslice';
 import './Video.css';
 import dateFormat from 'dateformat';
+import Pulse from 'react-reveal/Pulse';
+
 
 
 function Video({...video}) {
@@ -13,6 +15,7 @@ function Video({...video}) {
     return (
 
         <div>
+            <Pulse>
         <div className='Video' onClick={() => dispatch(
             videoid({
                 videoid:video?.snippet?.resourceId?.videoId ,
@@ -45,6 +48,7 @@ function Video({...video}) {
            
             </Link>
         </div>
+        </Pulse>
         </div>
     )
 }

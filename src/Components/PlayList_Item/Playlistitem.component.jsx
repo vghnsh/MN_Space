@@ -3,12 +3,14 @@ import {Link } from 'react-router-dom';
 //import {withRouter from 'react-router-dom';
 import { useDispatch} from 'react-redux';
 import { playlistid } from '../../Redux/mnslice';
+import Fade from 'react-reveal/Fade';
 
 import './Playlist.css';
 
 function Playlistitem({...playList1}) {
     const dispatch = useDispatch()
     return (
+        <Fade left>
         <div className='bg' onClick={() => dispatch(
             playlistid({
                 playlisttitle:playList1?.snippet?.title,
@@ -17,10 +19,10 @@ function Playlistitem({...playList1}) {
            
            
         )}>
-
+           
             <Link className='link' to="/Pvideo">
                 <div className='baap'>
-
+                    
                     <div  className='Pthumb thumb' 
                     style={
                         {
@@ -56,7 +58,9 @@ function Playlistitem({...playList1}) {
                
                
             </Link>
+           
         </div>
+        </Fade>
     )
 }
 

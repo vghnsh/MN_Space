@@ -4,6 +4,7 @@
   padding: 0.7em 10em 1.7em 10em;
 }
 .input {
+  cursor: pointer;
   width: 50%;
   box-sizing: border-box;
   border: 2px solid #ccc;

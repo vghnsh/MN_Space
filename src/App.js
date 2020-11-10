@@ -4,7 +4,7 @@ import {Requests} from './Requests';
 import PlayList from '../src/Components/PlayList/Playlist.component';
 import Count from '../src/Components/Count/Count.component';
 import Pvideo from './Components/PVideo/Pvideo.component';
-import Videopage from './Components/VideoPage/Videopage';
+import Videopage from './Components/VideoPage/Videopage.component';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Search from '../src/Components/Search/Search.component';
 import Head from '../src/Components/Head/Head.component';
