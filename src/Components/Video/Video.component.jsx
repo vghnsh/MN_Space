@@ -15,7 +15,7 @@ function Video({...video}) {
     return (
 
         <div>
-            <Pulse>
+            <Pulse duration={3000}>
         <div className='Video' onClick={() => dispatch(
             videoid({
                 videoid:video?.snippet?.resourceId?.videoId ,

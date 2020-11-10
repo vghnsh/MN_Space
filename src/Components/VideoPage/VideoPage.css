@@ -33,8 +33,11 @@
   color: black;
   font-weight: bold;
 }
-.MuiButton-containedPrimary .MuiButton-contained.Mui-disabled {
-  width: 100%;
+.MuiButton-containedPrimary {
+  width: 100% !important;
+}
+.MuiButton-contained.Mui-disabled {
+  width: 100% !important;
 }
 
 .comment {

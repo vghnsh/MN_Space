@@ -20,7 +20,7 @@ function Videopage() {
 
     const [input,setInput]= useState('');
     const [comment,setComment]= useState([]);
-    const [name,setName]= useState([]);
+    const [name,setName]= useState(null);
 
 
     useEffect(()=>{
@@ -75,7 +75,7 @@ function Videopage() {
                     
                     </input>
                     <div className='btn'>
-                    <Button  variant="contained" color="primary" disabled={!input} value='Comment' onClick={handleClick}  >
+                    <Button  variant="contained" color="primary" disabled={!(input && name)} value='Comment' onClick={handleClick}  >
                     
                     Comment
 
