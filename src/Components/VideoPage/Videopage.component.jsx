@@ -75,7 +75,7 @@ function Videopage() {
                     
                     </input>
                     <div className='btn'>
-                    <Button  variant="contained" color="primary" disabled={!(input && name)} value='Comment' onClick={handleClick}  >
+                    <Button type={"submit"} variant="contained" color="primary" disabled={!(input && name)} value='Comment' onClick={handleClick}  >
                     
                     Comment
 
